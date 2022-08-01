@@ -11,3 +11,11 @@ Assignment 1:
   * POST
   * PUT
   * DELETE
+
+Assignment 2:
+* Hard coding configuration values is generally considered a bad practice
+* HTTP client properties are currently hard coded
+* These often need to be changed in deployments for performance tuning
+* Externalizing will alow the configuration values to be changed without rebuilding
+* Assignment - Use Spring to externalize properties of BlockingRestTemplateCustomizer
+  * Externalize connection and timeout values
